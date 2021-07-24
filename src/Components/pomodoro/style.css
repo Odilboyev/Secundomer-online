@@ -1,0 +1,48 @@
+.timer-card {
+    width: 25%;
+    height: 70vh;
+    border-radius: 5px;
+    border: 1px solid #ffffff50;
+}
+
+.timer-card h1 {
+    color: #fff;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 0 !important;
+}
+
+.pomodoro-wrapper {
+    width: 80%;
+    height: 60%;
+    padding: 20px;
+    border: 2px dashed #ffffffc5;
+    background-color: #f5602a;
+}
+
+.pomo-btn {
+    padding: 10px 40px;
+    border: 1px solid #ffff;
+    border-radius: 25px;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f5602a;
+}
+
+
+@media (max-width: 468px) {
+    .timer-card {
+        height: 50vh;
+        width: 60%;
+    }
+}
+
+@media (max-width: 868px) {
+    .timer-card {
+        width: 40%;
+    }
+}

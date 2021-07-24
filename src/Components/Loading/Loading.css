@@ -1,0 +1,16 @@
+.loading-panel {
+    width: 300px;
+    border-radius: 60px;
+    margin: 30px auto;
+    border: 2px solid #202020;
+    position: relative;
+    overflow: hidden;
+}
+
+.loading {
+    transition: all 0.5s linear;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
